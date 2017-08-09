@@ -49,13 +49,18 @@
           <argument>
             <kind>1</kind>
             <string>_speed = 3;
+_jump = 9;
 
 _horizontalMovement = _speed * (keyboard_check(vk_right) - keyboard_check(vk_left));
 _predictedX = x + _horizontalMovement;
 while (collision_circle(_predictedX, y, 16, all, false, true) != noone) {
-    _predictedX--;
+    _predictedX -= sign(_horizontalMovement);
 }
 x = _predictedX;
+
+if (keyboard_check_pressed(vk_up) == 1 &amp;&amp; collision_circle(x, y + 1, 16, all, false, true) != noone) {
+    _verticalSpeed = _jump + 1;
+}
 
 _verticalSpeed--;
 _predictedY = y - _verticalSpeed;
