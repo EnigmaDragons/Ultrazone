@@ -8,6 +8,8 @@
     <sound>sound\titlebgm</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\Character_sprite</sprite>
+    <sprite>sprites\Ground_sprite</sprite>
     <sprite>sprites\titletext</sprite>
     <sprite>sprites\floor1</sprite>
     <sprite>sprites\floor2</sprite>
@@ -35,6 +37,9 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\Character_obj</object>
+    <object>objects\Ground_obj</object>
+    <object>objects\GotoNoahsRoom</object>
     <object>objects\f1</object>
     <object>objects\linc1</object>
     <object>objects\rinc1</object>
@@ -50,6 +55,7 @@
     <room>rooms\TitleScreen</room>
     <room>rooms\level1</room>
     <room>rooms\level2</room>
+    <room>rooms\NoahsDemo_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
