@@ -1,0 +1,1 @@
+_verticalSpeed = 0;

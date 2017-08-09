@@ -34,6 +34,10 @@
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\CharacterController.gml</script>
+    <script>scripts\CharacterInitialize.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\Character_obj</object>
     <object>objects\Ground_obj</object>
@@ -47,8 +51,8 @@
     <object>objects\o_dude</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\NoahsDemo_room</room>
     <room>rooms\level1</room>
+    <room>rooms\NoahsDemo_room</room>
     <room>rooms\TitleScreen</room>
   </rooms>
   <help>
