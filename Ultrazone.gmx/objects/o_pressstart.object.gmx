@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>NoahsDemo_room</room>
+            <room>level1</room>
           </argument>
         </arguments>
       </action>
