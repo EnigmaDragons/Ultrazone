@@ -5,13 +5,22 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\Character_sprite</sprite>
+    <sprite>sprites\Ground_sprite</sprite>
+  </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\Character_obj</object>
+    <object>objects\Ground_obj</object>
+    <object>objects\GotoNoahsRoom</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\TitleScreen</room>
+    <room>rooms\NoahsDemo_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
