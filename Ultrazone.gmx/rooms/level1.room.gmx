@@ -153,6 +153,7 @@
     <instance objName="f1" x="462" y="819" name="inst_9836700C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="f1" x="567" y="819" name="inst_93C73521" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_dude" x="84" y="819" name="inst_E399BD69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="invisibledoor" x="546" y="798" name="inst_7FE186D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

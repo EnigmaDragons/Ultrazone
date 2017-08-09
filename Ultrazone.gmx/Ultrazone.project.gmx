@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\titlebgm</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\titletext</sprite>
     <sprite>sprites\floor1</sprite>
@@ -40,10 +42,14 @@
     <object>objects\linc2</object>
     <object>objects\rinc2</object>
     <object>objects\o_dude</object>
+    <object>objects\o_pressstart</object>
+    <object>objects\invisibledoor</object>
+    <object>objects\o_titletext</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\level1</room>
     <room>rooms\TitleScreen</room>
+    <room>rooms\level1</room>
+    <room>rooms\level2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
