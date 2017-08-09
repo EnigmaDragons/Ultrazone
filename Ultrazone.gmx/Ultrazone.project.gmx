@@ -5,12 +5,44 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\titletext</sprite>
+    <sprite>sprites\floor1</sprite>
+    <sprite>sprites\floor2</sprite>
+    <sprite>sprites\floor3</sprite>
+    <sprite>sprites\floor4</sprite>
+    <sprite>sprites\flooredge1</sprite>
+    <sprite>sprites\shallowfloor1</sprite>
+    <sprite>sprites\shallowfloor2</sprite>
+    <sprite>sprites\r_incline1</sprite>
+    <sprite>sprites\l_edge1</sprite>
+    <sprite>sprites\dirt1</sprite>
+    <sprite>sprites\r_edge1</sprite>
+    <sprite>sprites\dirt2</sprite>
+    <sprite>sprites\r_nearedge1</sprite>
+    <sprite>sprites\l_incline2</sprite>
+    <sprite>sprites\r_incline2</sprite>
+    <sprite>sprites\l_incline1</sprite>
+    <sprite>sprites\shallowfloor3</sprite>
+    <sprite>sprites\shallowfloor4</sprite>
+    <sprite>sprites\dude</sprite>
+  </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\f1</object>
+    <object>objects\linc1</object>
+    <object>objects\rinc1</object>
+    <object>objects\dirt</object>
+    <object>objects\linc2</object>
+    <object>objects\rinc2</object>
+    <object>objects\o_dude</object>
+  </objects>
   <rooms name="rooms">
+    <room>rooms\level1</room>
     <room>rooms\TitleScreen</room>
   </rooms>
   <help>
