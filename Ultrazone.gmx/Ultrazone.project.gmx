@@ -47,9 +47,9 @@
     <object>objects\o_dude</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\NoahsDemo_room</room>
     <room>rooms\level1</room>
     <room>rooms\TitleScreen</room>
-    <room>rooms\NoahsDemo_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -53,6 +53,14 @@
   <instances>
     <instance objName="GotoNoahsRoom" x="32" y="32" name="inst_7FC0A769" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GotoNoahsRoom" x="32" y="32" name="inst_A7338631" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GotoNoahsRoom" x="128" y="32" name="inst_520C3D14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Character_obj" x="512" y="256" name="inst_24FDCE4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Character_obj" x="864" y="448" name="inst_7C95EAB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Character_obj" x="288" y="544" name="inst_86B7490C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Character_obj" x="832" y="640" name="inst_B26C1C96" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="Character_obj" x="320" y="416" name="inst_F4808E70" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="Character_obj" x="736" y="640" name="inst_76FB8146" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="Character_obj" x="1024" y="320" name="inst_E3F59AA6" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

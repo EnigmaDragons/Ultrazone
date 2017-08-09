@@ -26,16 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>_speed = 3;
-_jumpspeed = 9;
-
 _horizontalMovement = _speed * (keyboard_check(vk_right) - keyboard_check(vk_left));
+_predictedSpot = x + _horizontalMovement;
 
-
-while (!place_free(x + _horizontalMovement, y)) {
-    _horizontalMovement -= 1;
+while (collision_circle(_predictedSpot, y, 16, all, false, true) != noone) {
+    _predictedSpot--;
 }
 
-x += _horizontalMovement;
+x = _predictedSpot
 </string>
           </argument>
         </arguments>
